@@ -3,7 +3,7 @@
 역할:BE
 
 백엔드 파트 설명
-- 새로운 Python Web Framework인 FastAPI를 사용하였습니다.
+- Python Web Framework인 FastAPI를 사용하였습니다.
 - Dockerfile, docker-compose(+dev)로 각 컨테이너단에 도커파일 작성과 그걸 통합해서 실행시켜주는 도커 컴포즈를 작성하였고, 배포환경과 개발환경의 분리까지 진행하였습니다.
 - SQLAlchemy ORM을 이용, 데이터 테이블을 짰고,각 테이블별 relation설정 및 N:M 매핑이 된 테이블을 orm에서 쉽게 실행 할 수 있도록 assosication_table을 만들어 관리하였습니다.
 - pydantic 라이브러리를 이용, serialize,deserialize,data validation, data custom을 자동 지원하게끔 schemas.py를 작성하여 request와 response JSON data들을 다뤘습니다.
